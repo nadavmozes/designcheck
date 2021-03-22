@@ -1,0 +1,40 @@
+// .logo {
+//     width: 40%;
+// }
+// .nav-links {
+//     width: 20%;
+// }
+// .contact-us {
+//     width: 40%;
+// }
+
+.nav-bar {
+    margin-top: 38px;
+    margin-left: 237px;
+    margin-right: 241px;
+    .nav-links {
+        flex-grow: 10;
+        align-self: flex-end;
+        > a {
+            margin-right: 50px;
+            font-size: 1.1875rem;
+            font-family: "Myriad";
+        }
+    }
+    .logo {
+        margin-right: 110px;
+        width: 146px;
+        height: 33px;
+        align-self: flex-end;
+    }
+    .contact-us {
+        border: none;
+        border-radius: 30px;
+        width: 166px;
+        height: 61px;
+        color: #6426dd;
+        font-family: "Myriad";
+        font-weight: normal;
+        font-size: 1.3125rem;
+    }
+}
